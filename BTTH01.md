@@ -9,13 +9,12 @@ Trích xuất từ email ứng tuyển thô các trường: `name` (Họ tên), 
 Dữ liệu chuẩn hóa 100% để import trực tiếp vào Database tuyển dụng. 
 
 # ACTION
-1. **Xuất cho tôi: Một bảng Markdown tóm tắt thông tin ứng viên, Một mảng JSON thô (raw JSON) chứa thông tin ứng viên để nạp vào database.
-2. **Họ tên**: Viết hoa chữ cái đầu mỗi từ (Title Case).
-3. **SĐT**: Bỏ dấu cách/gạch ngang, chuẩn hóa về `+84`.
-4. **Kinh nghiệm**: Kiểu số (`0` nếu chưa có kinh nghiệm).
-5. **Kỹ năng**: Mảng không trùng lặp `['A', 'B']`.
-6. **Thiếu thông tin**: Điền `null` (trong JSON) hoặc `Không có` (trong bảng).
-7. **Ràng buộc**: Tuyệt đối không ảo giác. CHỈ trả về bảng và JSON, không kèm lời văn ngoài.
+1. **Họ tên**: Viết hoa chữ cái đầu mỗi từ (Title Case).
+2. **SĐT**: Bỏ dấu cách/gạch ngang, chuẩn hóa về `+84`.
+3. **Kinh nghiệm**: Kiểu số (`0` nếu chưa có kinh nghiệm).
+4. **Kỹ năng**: Mảng không trùng lặp `['A', 'B']`.
+5. **Thiếu thông tin**: Điền `null` (trong JSON) hoặc `Không có` (trong bảng).
+6. **Ràng buộc**: Tuyệt đối không ảo giác. CHỈ trả về bảng và JSON, không kèm lời văn ngoài.
 
 # TONE
 Khách quan, chính xác.
