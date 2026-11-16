@@ -21,23 +21,24 @@ Khách quan, chính xác.
 
 # EXTRAS (Few-shot)
 ### Ví dụ:
-- **Input:** "Chào anh/chị, em là trần minh hoàng, ứng tuyển Backend Dev. 2 năm kinh nghiệm Python, FastAPI. SĐT: 0987654321, email: An@gmail.com"
+- **Input:** "Chào anh/chị, em là Lê Văn A, ứng tuyển Backend Dev. 2 năm kinh nghiệm Python, FastAPI. SĐT: 0987654321, email: An@gmail.com"
 - **Output (Markdown):**
+
 | Họ tên | Số điện thoại | Email | Vị trí | Kinh nghiệm | Kỹ năng |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | Lê Văn A | +84987654321 | An@gmail.com | Backend Dev | 2 | Python, FastAPI |
 
-- **Input**
-> File nội dung email thô
+- **InPut (JSON):**
+> File email tuyển dụng thô.
 - **Output (JSON):**
 ```json
 [
   {
     "name": "Lê Văn A",
-    "phone": "+84987654321",
+    "phone": "+84987654321 ",
     "email": "An@gmail.com",
-    "position": "Backend Dev",
-    "experience_years": 2,
-    "skills": ["Python", "FastAPI"]
+    "position": "BE",
+    "experience_years": "2",
+    "skills": "Python, FastAPI",
   }
 ]
